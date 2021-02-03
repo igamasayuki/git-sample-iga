@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
-
+p{
+    color:red;
+    
+}
 h1{
   color: red;
 }
