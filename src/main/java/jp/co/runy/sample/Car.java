@@ -29,12 +29,5 @@ public class Car {
     this.bodyColor = bodyColor;
   }
 
-  @Override
-  public String toString() {
-    return "{" +
-      " speed='" + getSpeed() + "'" +
-      ", bodyColor='" + getBodyColor() + "'" +
-      "}";
-  }
-  
+// 削除した
 }
