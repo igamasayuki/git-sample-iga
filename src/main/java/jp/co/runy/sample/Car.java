@@ -22,7 +22,7 @@ public class Car {
   }
 
   public String getBodyColor() {
-    return this.bodyColor;
+    return this.bodyColor; // test
   }
 
   public void setBodyColor(String bodyColor) {
