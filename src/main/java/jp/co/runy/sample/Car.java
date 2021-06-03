@@ -8,8 +8,8 @@ public class Car {
   public Car() {
   }
 
-  public Car(int speed, String bodyColor) {
-    this.speed = speed;
+  public Car(int speed2, String bodyColor) {
+    this.speed = speed2;
     this.bodyColor = bodyColor;
   }
 
@@ -18,7 +18,7 @@ public class Car {
   }
 
   public void setSpeed(int speed) {
-    this.speed = speed;
+    this.speed = 10;
   }
 
   public String getBodyColor() {
