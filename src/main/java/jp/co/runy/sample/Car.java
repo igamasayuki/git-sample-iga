@@ -1,36 +1,40 @@
 package jp.co.runy.sample;
 
 public class Car {
-	private int speed;
-	private String bodyColor;
 
-	public Car() {
-	}
+  private int speed;
+  private String bodyColor;
 
-	public Car(int speed2, String bodyColor) {
-		this.speed = speed2;
-		this.bodyColor = bodyColor;
-	}
 
-	public int getSpeed() {
-		return this.speed;
-	}
+  public Car() {
+  }
 
-	public void setSpeed(int speed) {
-		this.speed = 10;
-	}
+  public Car(int speed2, String bodyColor) {
+    this.speed = speed2;
+    this.bodyColor = bodyColor;
+  }
 
-	public String getBodyColor() {
-		return this.bodyColor;
-	}
+  public int getSpeed() {
+    return this.speed;
+  }
 
-	public void setBodyColor(String bodyColor) {
-		this.bodyColor = bodyColor;
-	}
+  public void setSpeed(int speed) {
+    this.speed = 10;
+  }
 
-	@Override
-	public String toString() {
-		return "Car [speed=" + speed + ", bodyColor=" + bodyColor + "]";
-	}
+  public String getBodyColor() {
+    return this.bodyColor; // test
+  }
 
+  public void setBodyColor(String bodyColor) {
+    this.bodyColor = bodyColor;
+  }
+
+  @Override
+  public String toString() {
+    return "{" +
+      " speed='" + getSpeed() + "'" +
+      ", bodyColor='" + getBodyColor() + "'" +
+      "}";
+  }
 }
