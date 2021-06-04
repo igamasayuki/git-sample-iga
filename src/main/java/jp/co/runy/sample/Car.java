@@ -9,7 +9,7 @@ public class Car {
   public Car() {
   }
 
-  public Car(int speed2, String bodyColor) {
+  public Car(int speed2, String bodyColor) {//f/x2かいめ
     this.speed = speed2;
     this.bodyColor = bodyColor;
   }
