@@ -15,7 +15,7 @@ public class Car {
   }
 
   public int getSpeed() {
-    return this.speed;
+    return this.speed;// b/x 2回目
   }
 
   public void setSpeed(int speed) {
