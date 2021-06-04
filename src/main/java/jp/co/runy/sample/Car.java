@@ -5,9 +5,8 @@ public class Car {
   private String bodyColor; //develop
   
 
-
   public Car() {
-	  // test
+	  // これが正しい
   }
 
   public Car(int speed2, String bodyColor) {//f/x2かいめ
@@ -16,7 +15,7 @@ public class Car {
   }
 
   public int getSpeed() {
-    return this.speed;
+    return this.speed;// b/x 2回目
   }
 
   public void setSpeed(int speed) {
@@ -24,7 +23,7 @@ public class Car {
   }
 
   public String getBodyColor() {
-    return this.bodyColor;
+    return this.bodyColor; // test
   }
 
   public void setBodyColor(String bodyColor) {
@@ -38,5 +37,4 @@ public class Car {
       ", bodyColor='" + getBodyColor() + "'" +
       "}";
   }
-  
 }
