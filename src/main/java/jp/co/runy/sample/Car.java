@@ -2,7 +2,8 @@ package jp.co.runy.sample;
 
 public class Car {
   private int speed;
-  private String bodyColor;
+  private String bodyColor; //develop
+  
 
 
   public Car() {
