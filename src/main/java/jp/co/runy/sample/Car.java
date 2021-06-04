@@ -7,6 +7,7 @@ public class Car {
 
 
   public Car() {
+	  // test
   }
 
   public Car(int speed2, String bodyColor) {//f/x2かいめ
